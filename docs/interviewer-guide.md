@@ -74,6 +74,9 @@ prompting them with metric names at first. Strong candidates should define what
 success means for retrieval, account for ranking position, and notice that the
 same query has multiple runs.
 
+The data is stored as CSV files under `data/`, and the notebook loads it into
+pandas DataFrames before the candidate starts coding.
+
 Good interpretation signals:
 
 - `q_privacy_boundary` should look strong and stable.
