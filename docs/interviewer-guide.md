@@ -10,8 +10,8 @@ This exercise is designed for a 20-30 minute live session with the notebook, or
 3. Ask them to merge `interview/prompt-refresh` and resolve the conflict.
 4. Ask them to investigate and fix the failing retrieval test.
 5. Ask them to review the GitHub PR from `review/fallback-safety` into `main`.
-6. Ask them to open `notebooks/retrieval_evaluation.ipynb`, choose metrics, and
-   evaluate the synthetic retrieval runs.
+6. Ask them to open `notebooks/retrieval_evaluation.ipynb`, decide what to
+   measure, and evaluate the synthetic retrieval runs.
 7. Ask them to open `docs/pipeline.mmd` and explain the pipeline.
 
 Candidate commands should go through `uv`, for example `uv run python -m unittest`.
@@ -69,22 +69,10 @@ Strong candidates should notice at least two of these in the review PR:
 
 ## Retrieval Evaluation Notebook
 
-The notebook intentionally asks candidates to choose metrics rather than giving
-them a fixed recipe. Good candidates should usually propose at least one
-relevance metric and one consistency metric.
-
-Useful relevance metrics:
-
-- Hit rate@k: whether any expected relevant document appears in the top k.
-- Recall@k: how much of the expected relevant set appears in the top k.
-- Precision@k: how much of the top k is actually relevant.
-- MRR: whether the first relevant result appears early.
-
-Useful consistency metrics:
-
-- Exact top-k match rate across the three runs for a query.
-- Average pairwise Jaccard overlap across top-k document ids.
-- Rank movement for expected relevant documents.
+The notebook intentionally gives candidates data, not a metric recipe. Avoid
+prompting them with metric names at first. Strong candidates should define what
+success means for retrieval, account for ranking position, and notice that the
+same query has multiple runs.
 
 Good interpretation signals:
 
@@ -95,6 +83,9 @@ Good interpretation signals:
   runs.
 - `q_eval_launch` retrieves relevant documents but occasionally pushes one below
   top 2, which is important if the prompt only consumes the first few chunks.
+- Several support and incident-management queries are partially correct but
+  include plausible distractors, which should lead to discussion about ranking
+  quality versus simply finding at least one relevant document.
 
 ## Extension Discussion Ideas
 

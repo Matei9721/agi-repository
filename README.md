@@ -48,10 +48,10 @@ This project uses `uv` for setup and command execution.
 
 6. Evaluate synthetic retrieval runs.
 
-   Open `notebooks/retrieval_evaluation.ipynb`. Choose a few retrieval metrics,
-   implement them in the notebook, and explain what the outputs say about the
-   mocked retrieval system. The dataset includes three retrieval runs per query,
-   so consider both relevance and consistency across runs.
+   Open `notebooks/retrieval_evaluation.ipynb`. The notebook loads synthetic
+   retrieval outputs into pandas DataFrames. Decide what to measure, implement
+   the evaluation however you prefer, and explain what the outputs say about the
+   mocked retrieval system.
 
 7. Open and discuss the pipeline diagram.
 
