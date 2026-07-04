@@ -74,8 +74,8 @@ prompting them with metric names at first. Strong candidates should define what
 success means for retrieval, account for ranking position, and notice that the
 same query has multiple runs.
 
-The data is stored as CSV files under `data/`, and the notebook loads it into
-pandas DataFrames before the candidate starts coding.
+The data is stored in `data/retrieval_eval.csv`, and the notebook loads it into
+one pandas DataFrame before the candidate starts coding.
 
 Good interpretation signals:
 
