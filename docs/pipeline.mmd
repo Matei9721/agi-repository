@@ -1,0 +1,11 @@
+flowchart LR
+    Question["User question"]
+    Retriever["Keyword retrieval over policy snippets"]
+    Prompt["Prompt builder with evidence and answer style"]
+    FakeLLM["Randomized mocked generator"]
+    Result["Answer, citations, confidence"]
+
+    Question --> Retriever
+    Retriever --> Prompt
+    Prompt --> FakeLLM
+    FakeLLM --> Result
