@@ -54,14 +54,10 @@ This project uses `uv` for setup and command execution.
    write or verbally give 2-3 review comments. Focus on correctness,
    reliability, and product risk.
 
-6. Generate and discuss the pipeline diagram.
+6. Open and discuss the pipeline diagram.
 
-   ```powershell
-   uv run python -m rag_lab.diagram > docs/generated_pipeline.mmd
-   ```
-
-   Open `docs/generated_pipeline.mmd`, explain the current pipeline, and describe
-   one extension you would make if this were moving toward production.
+   Open `docs/pipeline.mmd`, explain the current pipeline, and describe one
+   extension you would make if this were moving toward production.
 
 7. Commit your work.
 

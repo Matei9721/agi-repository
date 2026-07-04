@@ -9,7 +9,7 @@ This exercise is designed for a 15-25 minute live session.
 3. Ask them to merge `interview/prompt-refresh` and resolve the conflict.
 4. Ask them to investigate and fix the failing retrieval test.
 5. Ask them to review the GitHub PR from `review/fallback-safety` into `main`.
-6. Ask them to generate `docs/generated_pipeline.mmd` and explain the pipeline.
+6. Ask them to open `docs/pipeline.mmd` and explain the pipeline.
 
 Candidate commands should go through `uv`, for example `uv run python -m unittest`.
 
