@@ -75,7 +75,8 @@ success means for retrieval, account for ranking position, and notice that the
 same query has multiple runs.
 
 The data is stored in `data/retrieval_eval.csv`, and the notebook loads it into
-one pandas DataFrame before the candidate starts coding.
+one pandas DataFrame before the candidate starts coding. Several queries have
+multiple expected relevant documents.
 
 Good interpretation signals:
 

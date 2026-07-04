@@ -49,9 +49,9 @@ This project uses `uv` for setup and command execution.
 6. Evaluate synthetic retrieval runs.
 
    Open `notebooks/retrieval_evaluation.ipynb`. The notebook loads synthetic
-   retrieval outputs from `data/retrieval_eval.csv` into one pandas DataFrame.
-   Decide what to measure, implement the evaluation however you prefer, and
-   explain what the outputs say about the mocked retrieval system.
+   retrieval outputs and labels from `data/retrieval_eval.csv` into one pandas
+   DataFrame. Decide what to measure, implement the evaluation however you
+   prefer, and explain what the outputs say about the mocked retrieval system.
 
 7. Open and discuss the pipeline diagram.
 
