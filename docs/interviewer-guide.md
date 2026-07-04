@@ -8,7 +8,7 @@ This exercise is designed for a 15-25 minute live session.
 2. Ask them to change `ANSWER_STYLE` in `rag_lab/prompts.py`.
 3. Ask them to merge `interview/prompt-refresh` and resolve the conflict.
 4. Ask them to investigate and fix the failing retrieval test.
-5. Ask them to review `review/sample_pr.diff`.
+5. Ask them to review the GitHub PR from `review/fallback-safety` into `main`.
 6. Ask them to generate `docs/generated_pipeline.mmd` and explain the pipeline.
 
 Candidate commands should go through `uv`, for example `uv run python -m unittest`.
@@ -37,9 +37,26 @@ ANSWER_STYLE = "Use an action-oriented, evidence-first tone and call out caveats
 
 Exact wording does not matter as long as both ideas remain.
 
+## Code Review PR
+
+Create or open a GitHub PR from `review/fallback-safety` into `main`.
+
+Suggested title:
+
+```text
+Add fallback handling for pipeline failures
+```
+
+If the PR does not already exist, this compare URL should open the PR creation
+flow once the branch is pushed:
+
+```text
+https://github.com/Matei9721/agi-repository/compare/main...review/fallback-safety?quick_pull=1
+```
+
 ## Good Code Review Signals
 
-Strong candidates should notice at least two of these in `review/sample_pr.diff`:
+Strong candidates should notice at least two of these in the review PR:
 
 - It can return a hallucinated answer with no citations.
 - It swallows all exceptions and hides operational failures.

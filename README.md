@@ -50,8 +50,9 @@ This project uses `uv` for setup and command execution.
 
 5. Do a short code review.
 
-   Open `review/sample_pr.diff` and write or verbally give 2-3 review comments.
-   Focus on correctness, reliability, and product risk.
+   Open the GitHub pull request from `review/fallback-safety` into `main` and
+   write or verbally give 2-3 review comments. Focus on correctness,
+   reliability, and product risk.
 
 6. Generate and discuss the pipeline diagram.
 
