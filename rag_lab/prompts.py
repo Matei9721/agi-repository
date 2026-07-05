@@ -1,4 +1,4 @@
-ANSWER_STYLE = "Use a brief, evidence-first tone."
+ANSWER_STYLE = "Use a brief, evidence-first tone and call out caveats."
 
 
 def build_prompt(question, context):
