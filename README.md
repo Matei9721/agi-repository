@@ -7,7 +7,7 @@ and asks a slightly random `FakeLLM` to produce an answer with citations.
 
 ## Candidate Exercise
 
-Target time: 20-30 minutes with the retrieval-evaluation notebook, or 15-25
+Target time: 20-30 minutes with the retrieval-evaluation exercise, or 15-25
 minutes if you skip that section.
 
 You can use your usual editor and terminal. Please narrate tradeoffs as you work.
@@ -48,10 +48,16 @@ This project uses `uv` for setup and command execution.
 
 6. Evaluate synthetic retrieval runs.
 
-   Open `notebooks/retrieval_evaluation.ipynb`. The notebook loads synthetic
-   retrieval outputs and labels from `data/retrieval_eval.csv` into one pandas
-   DataFrame. Decide what to measure, implement the evaluation however you
-   prefer, and explain what the outputs say about the mocked retrieval system.
+   Open `docs/retrieval-evaluation.md`, then implement or extend metrics in
+   `eval_pipeline/metrics.py`. The pipeline loads repeated retrieval runs from
+   `dataset.json` and writes a summary to `results.json`:
+
+   ```powershell
+   uv run python -m eval_pipeline
+   ```
+
+   Decide what to measure and explain what the outputs say about the mocked
+   retrieval system.
 
 7. Open and discuss the pipeline diagram.
 

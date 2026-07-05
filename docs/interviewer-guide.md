@@ -1,7 +1,7 @@
 # Interviewer Guide
 
-This exercise is designed for a 20-30 minute live session with the notebook, or
-15-25 minutes if you skip that section.
+This exercise is designed for a 20-30 minute live session with the retrieval
+evaluation exercise, or 15-25 minutes if you skip that section.
 
 ## Suggested Flow
 
@@ -10,8 +10,8 @@ This exercise is designed for a 20-30 minute live session with the notebook, or
 3. Ask them to merge `interview/prompt-refresh` and resolve the conflict.
 4. Ask them to investigate and fix the failing retrieval test.
 5. Ask them to review the GitHub PR from `review/fallback-safety` into `main`.
-6. Ask them to open `notebooks/retrieval_evaluation.ipynb`, decide what to
-   measure, and evaluate the synthetic retrieval runs.
+6. Ask them to open `docs/retrieval-evaluation.md`, decide what to measure,
+   and evaluate the synthetic retrieval runs in `dataset.json`.
 7. Ask them to open `docs/pipeline.mmd` and explain the pipeline.
 
 Candidate commands should go through `uv`, for example `uv run python -m unittest`.
@@ -67,29 +67,33 @@ Strong candidates should notice at least two of these in the review PR:
 - The fallback path violates the existing evidence-only prompt contract.
 - There are no tests for the new fallback behavior.
 
-## Retrieval Evaluation Notebook
+## Retrieval Evaluation Exercise
 
-The notebook intentionally gives candidates data, not a metric recipe. Avoid
+The exercise intentionally gives candidates data, not a metric recipe. Avoid
 prompting them with metric names at first. Strong candidates should define what
 success means for retrieval, account for ranking position, and notice that the
 same query has multiple runs.
 
-The data is stored in `data/retrieval_eval.csv`, and the notebook loads it into
-one pandas DataFrame before the candidate starts coding. Several queries have
-multiple expected relevant documents.
+The data is stored in `dataset.json`. The `eval_pipeline` package loads it,
+discovers decorated metrics in `eval_pipeline/metrics.py`, aggregates them with
+pandas, and writes `results.json`. Several queries have multiple expected
+relevant documents.
 
 Good interpretation signals:
 
-- `q_privacy_boundary` should look strong and stable.
-- `q_billing_invoice` should look like a hard failure because the expected
-  billing policy never appears.
-- `q_enterprise_rollout` should show some relevance but unstable rankings across
-  runs.
-- `q_eval_launch` retrieves relevant documents but occasionally pushes one below
-  top 2, which is important if the prompt only consumes the first few chunks.
-- Several support and incident-management queries are partially correct but
-  include plausible distractors, which should lead to discussion about ranking
-  quality versus simply finding at least one relevant document.
+- They use at least one retrieval-quality metric such as precision@k, recall@k,
+  MRR, nDCG, or hit rate.
+- They use at least one cross-run stability metric such as pairwise Jaccard
+  overlap or score variance across the three runs.
+- They group results by category instead of relying only on one aggregate.
+- They notice the precision/recall tradeoff caused by different gold-set sizes.
+- They distinguish stable-but-poor ranking from unstable retrieval.
+- They can explain why sklearn is optional here: many ranked-list metrics are
+  simple to implement directly.
+
+`reference/metrics_reference.py` is an interviewer-only answer key. The
+dataset-specific notes in `dataset_internal.md` call out the planted failure
+modes and expected aggregate values.
 
 ## Extension Discussion Ideas
 

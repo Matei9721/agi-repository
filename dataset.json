@@ -1,0 +1,3394 @@
+{
+  "meta": {
+    "k": 10,
+    "runs_per_query": 3,
+    "num_queries": 40,
+    "num_restaurants": 80,
+    "note": "retrieved lists are ranked (best first); gold is an unordered set"
+  },
+  "restaurants": [
+    {
+      "id": "R001",
+      "name": "Luigi's Trattoria",
+      "cuisine": "Italian",
+      "neighborhood": "Riverside",
+      "price": "$$$",
+      "tags": [
+        "kid_friendly",
+        "late_night",
+        "outdoor_seating",
+        "romantic",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R002",
+      "name": "Bella Napoli",
+      "cuisine": "Italian",
+      "neighborhood": "Old Town",
+      "price": "$",
+      "tags": [
+        "budget",
+        "good_for_groups",
+        "late_night",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R003",
+      "name": "Osteria Verde",
+      "cuisine": "Italian",
+      "neighborhood": "Riverside",
+      "price": "$$",
+      "tags": [
+        "kid_friendly"
+      ]
+    },
+    {
+      "id": "R004",
+      "name": "Il Forno",
+      "cuisine": "Italian",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R005",
+      "name": "Pasta Fresca",
+      "cuisine": "Italian",
+      "neighborhood": "Riverside",
+      "price": "$",
+      "tags": [
+        "budget",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R006",
+      "name": "Trattoria Sole",
+      "cuisine": "Italian",
+      "neighborhood": "Harbor",
+      "price": "$",
+      "tags": [
+        "budget",
+        "good_for_groups",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R007",
+      "name": "La Tavola",
+      "cuisine": "Italian",
+      "neighborhood": "Park End",
+      "price": "$",
+      "tags": [
+        "budget",
+        "good_for_groups",
+        "kid_friendly"
+      ]
+    },
+    {
+      "id": "R008",
+      "name": "Vino & Cucina",
+      "cuisine": "Italian",
+      "neighborhood": "Harbor",
+      "price": "$$",
+      "tags": [
+        "good_for_groups"
+      ]
+    },
+    {
+      "id": "R009",
+      "name": "Ristorante Piccolo",
+      "cuisine": "Italian",
+      "neighborhood": "Harbor",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R010",
+      "name": "Casa Romana",
+      "cuisine": "Italian",
+      "neighborhood": "Midtown",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R011",
+      "name": "El Ranchito",
+      "cuisine": "Mexican",
+      "neighborhood": "Park End",
+      "price": "$$",
+      "tags": [
+        "good_for_groups"
+      ]
+    },
+    {
+      "id": "R012",
+      "name": "Taqueria Sol",
+      "cuisine": "Mexican",
+      "neighborhood": "Park End",
+      "price": "$",
+      "tags": [
+        "budget",
+        "late_night",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R013",
+      "name": "La Cantina",
+      "cuisine": "Mexican",
+      "neighborhood": "Riverside",
+      "price": "$",
+      "tags": [
+        "budget",
+        "good_for_groups",
+        "late_night"
+      ]
+    },
+    {
+      "id": "R014",
+      "name": "Casa Maya",
+      "cuisine": "Mexican",
+      "neighborhood": "Riverside",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "kid_friendly",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R015",
+      "name": "Los Amigos",
+      "cuisine": "Mexican",
+      "neighborhood": "Park End",
+      "price": "$",
+      "tags": [
+        "budget",
+        "late_night"
+      ]
+    },
+    {
+      "id": "R016",
+      "name": "El Agave",
+      "cuisine": "Mexican",
+      "neighborhood": "Eastgate",
+      "price": "$$",
+      "tags": [
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R017",
+      "name": "Cocina Verde",
+      "cuisine": "Mexican",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": []
+    },
+    {
+      "id": "R018",
+      "name": "Tacos y Tortas",
+      "cuisine": "Mexican",
+      "neighborhood": "Harbor",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R019",
+      "name": "La Frontera",
+      "cuisine": "Mexican",
+      "neighborhood": "Riverside",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "kid_friendly",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R020",
+      "name": "Mezcal House",
+      "cuisine": "Mexican",
+      "neighborhood": "Riverside",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "late_night",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R021",
+      "name": "Sakura Sushi",
+      "cuisine": "Japanese",
+      "neighborhood": "Old Town",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R022",
+      "name": "Ramen Ya",
+      "cuisine": "Japanese",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "romantic"
+      ]
+    },
+    {
+      "id": "R023",
+      "name": "Tokyo Table",
+      "cuisine": "Japanese",
+      "neighborhood": "Old Town",
+      "price": "$$",
+      "tags": [
+        "romantic"
+      ]
+    },
+    {
+      "id": "R024",
+      "name": "Nori Bar",
+      "cuisine": "Japanese",
+      "neighborhood": "Old Town",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R025",
+      "name": "Umami House",
+      "cuisine": "Japanese",
+      "neighborhood": "Midtown",
+      "price": "$$$",
+      "tags": [
+        "kid_friendly",
+        "outdoor_seating",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R026",
+      "name": "Kaze Izakaya",
+      "cuisine": "Japanese",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": []
+    },
+    {
+      "id": "R027",
+      "name": "Sushi Zen",
+      "cuisine": "Japanese",
+      "neighborhood": "Harbor",
+      "price": "$$$",
+      "tags": [
+        "kid_friendly",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R028",
+      "name": "Matsuri",
+      "cuisine": "Japanese",
+      "neighborhood": "Eastgate",
+      "price": "$",
+      "tags": [
+        "budget",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R029",
+      "name": "Bento Box",
+      "cuisine": "Japanese",
+      "neighborhood": "Midtown",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "kid_friendly",
+        "late_night",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R030",
+      "name": "Yakitori Alley",
+      "cuisine": "Japanese",
+      "neighborhood": "Midtown",
+      "price": "$",
+      "tags": [
+        "budget"
+      ]
+    },
+    {
+      "id": "R031",
+      "name": "Green Fork",
+      "cuisine": "Vegan",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R032",
+      "name": "Plantpower",
+      "cuisine": "Vegan",
+      "neighborhood": "Eastgate",
+      "price": "$$$",
+      "tags": [
+        "upscale"
+      ]
+    },
+    {
+      "id": "R033",
+      "name": "The Herbivore",
+      "cuisine": "Vegan",
+      "neighborhood": "The Quarter",
+      "price": "$$$",
+      "tags": [
+        "romantic",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R034",
+      "name": "Roots & Shoots",
+      "cuisine": "Vegan",
+      "neighborhood": "Midtown",
+      "price": "$",
+      "tags": [
+        "budget",
+        "good_for_groups",
+        "kid_friendly"
+      ]
+    },
+    {
+      "id": "R035",
+      "name": "Sprout Kitchen",
+      "cuisine": "Vegan",
+      "neighborhood": "Eastgate",
+      "price": "$",
+      "tags": [
+        "budget",
+        "late_night",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R036",
+      "name": "Verdant",
+      "cuisine": "Vegan",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "late_night",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R037",
+      "name": "Kind Bowl",
+      "cuisine": "Vegan",
+      "neighborhood": "Eastgate",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R038",
+      "name": "Leaf & Grain",
+      "cuisine": "Vegan",
+      "neighborhood": "Old Town",
+      "price": "$",
+      "tags": [
+        "budget",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R039",
+      "name": "Bloom Cafe",
+      "cuisine": "Vegan",
+      "neighborhood": "Harbor",
+      "price": "$",
+      "tags": [
+        "budget",
+        "late_night",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R040",
+      "name": "Pure Plate",
+      "cuisine": "Vegan",
+      "neighborhood": "Old Town",
+      "price": "$$",
+      "tags": [
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R041",
+      "name": "Morning Glory",
+      "cuisine": "Cafe",
+      "neighborhood": "Midtown",
+      "price": "$",
+      "tags": [
+        "budget",
+        "late_night",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R042",
+      "name": "The Daily Grind",
+      "cuisine": "Cafe",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "late_night",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R043",
+      "name": "Sunny Side",
+      "cuisine": "Cafe",
+      "neighborhood": "Riverside",
+      "price": "$",
+      "tags": [
+        "budget",
+        "good_for_groups",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R044",
+      "name": "Cafe Aurora",
+      "cuisine": "Cafe",
+      "neighborhood": "Midtown",
+      "price": "$$$",
+      "tags": [
+        "outdoor_seating",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R045",
+      "name": "Bluebird Cafe",
+      "cuisine": "Cafe",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R046",
+      "name": "Toast & Jam",
+      "cuisine": "Cafe",
+      "neighborhood": "The Quarter",
+      "price": "$$$",
+      "tags": [
+        "romantic",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R047",
+      "name": "The Perch",
+      "cuisine": "Cafe",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "kid_friendly",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R048",
+      "name": "Marmalade",
+      "cuisine": "Cafe",
+      "neighborhood": "Riverside",
+      "price": "$$",
+      "tags": [
+        "kid_friendly"
+      ]
+    },
+    {
+      "id": "R049",
+      "name": "The Tap Room",
+      "cuisine": "Bar",
+      "neighborhood": "Old Town",
+      "price": "$$$",
+      "tags": [
+        "kid_friendly",
+        "outdoor_seating",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R050",
+      "name": "Hops & Barley",
+      "cuisine": "Bar",
+      "neighborhood": "Park End",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R051",
+      "name": "The Public House",
+      "cuisine": "Bar",
+      "neighborhood": "Park End",
+      "price": "$",
+      "tags": [
+        "budget",
+        "late_night",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R052",
+      "name": "Anchor Pub",
+      "cuisine": "Bar",
+      "neighborhood": "Old Town",
+      "price": "$$",
+      "tags": [
+        "kid_friendly",
+        "late_night"
+      ]
+    },
+    {
+      "id": "R053",
+      "name": "Brass Monkey",
+      "cuisine": "Bar",
+      "neighborhood": "The Quarter",
+      "price": "$$$",
+      "tags": [
+        "outdoor_seating",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R054",
+      "name": "The Growler",
+      "cuisine": "Bar",
+      "neighborhood": "Riverside",
+      "price": "$$$",
+      "tags": [
+        "kid_friendly",
+        "late_night",
+        "romantic",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R055",
+      "name": "Cask & Keg",
+      "cuisine": "Bar",
+      "neighborhood": "Riverside",
+      "price": "$$$",
+      "tags": [
+        "romantic",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R056",
+      "name": "Barrel & Board",
+      "cuisine": "Bar",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "kid_friendly",
+        "late_night",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R057",
+      "name": "Smoke & Ash",
+      "cuisine": "American",
+      "neighborhood": "Harbor",
+      "price": "$",
+      "tags": [
+        "budget",
+        "good_for_groups",
+        "late_night"
+      ]
+    },
+    {
+      "id": "R058",
+      "name": "The Griddle",
+      "cuisine": "American",
+      "neighborhood": "Eastgate",
+      "price": "$",
+      "tags": [
+        "budget",
+        "kid_friendly",
+        "late_night"
+      ]
+    },
+    {
+      "id": "R059",
+      "name": "Liberty Diner",
+      "cuisine": "American",
+      "neighborhood": "Eastgate",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "late_night",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R060",
+      "name": "Homestead Grill",
+      "cuisine": "American",
+      "neighborhood": "Harbor",
+      "price": "$$$",
+      "tags": [
+        "kid_friendly",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R061",
+      "name": "Copper Skillet",
+      "cuisine": "American",
+      "neighborhood": "Park End",
+      "price": "$$",
+      "tags": [
+        "late_night",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R062",
+      "name": "The Corner Table",
+      "cuisine": "American",
+      "neighborhood": "Harbor",
+      "price": "$$",
+      "tags": [
+        "kid_friendly",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R063",
+      "name": "Bigfork BBQ",
+      "cuisine": "American",
+      "neighborhood": "Uptown",
+      "price": "$$$",
+      "tags": [
+        "late_night",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R064",
+      "name": "Union Kitchen",
+      "cuisine": "American",
+      "neighborhood": "Midtown",
+      "price": "$$",
+      "tags": [
+        "kid_friendly",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R065",
+      "name": "Bangkok Garden",
+      "cuisine": "Thai",
+      "neighborhood": "Old Town",
+      "price": "$$",
+      "tags": [
+        "romantic"
+      ]
+    },
+    {
+      "id": "R066",
+      "name": "Lemongrass",
+      "cuisine": "Thai",
+      "neighborhood": "Harbor",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "late_night",
+        "outdoor_seating",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R067",
+      "name": "Thai Basil",
+      "cuisine": "Thai",
+      "neighborhood": "The Quarter",
+      "price": "$$$",
+      "tags": [
+        "outdoor_seating",
+        "romantic",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R068",
+      "name": "Golden Elephant",
+      "cuisine": "Thai",
+      "neighborhood": "Park End",
+      "price": "$",
+      "tags": [
+        "budget",
+        "good_for_groups",
+        "kid_friendly",
+        "late_night",
+        "outdoor_seating",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R069",
+      "name": "Spice Route",
+      "cuisine": "Thai",
+      "neighborhood": "Riverside",
+      "price": "$",
+      "tags": [
+        "budget",
+        "kid_friendly",
+        "late_night",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R070",
+      "name": "Chao Phraya",
+      "cuisine": "Thai",
+      "neighborhood": "Riverside",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "kid_friendly"
+      ]
+    },
+    {
+      "id": "R071",
+      "name": "Coconut House",
+      "cuisine": "Thai",
+      "neighborhood": "Old Town",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "outdoor_seating",
+        "romantic",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R072",
+      "name": "Siam Orchid",
+      "cuisine": "Thai",
+      "neighborhood": "Eastgate",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "late_night",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R073",
+      "name": "Taj Palace",
+      "cuisine": "Indian",
+      "neighborhood": "Park End",
+      "price": "$",
+      "tags": [
+        "budget"
+      ]
+    },
+    {
+      "id": "R074",
+      "name": "Curry Leaf",
+      "cuisine": "Indian",
+      "neighborhood": "Harbor",
+      "price": "$$",
+      "tags": [
+        "romantic"
+      ]
+    },
+    {
+      "id": "R075",
+      "name": "Saffron",
+      "cuisine": "Indian",
+      "neighborhood": "Uptown",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "romantic"
+      ]
+    },
+    {
+      "id": "R076",
+      "name": "Delhi Darbar",
+      "cuisine": "Indian",
+      "neighborhood": "The Quarter",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R077",
+      "name": "Spice Bazaar",
+      "cuisine": "Indian",
+      "neighborhood": "The Quarter",
+      "price": "$$$",
+      "tags": [
+        "romantic",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R078",
+      "name": "Mumbai House",
+      "cuisine": "Indian",
+      "neighborhood": "Park End",
+      "price": "$$",
+      "tags": [
+        "good_for_groups",
+        "kid_friendly",
+        "outdoor_seating"
+      ]
+    },
+    {
+      "id": "R079",
+      "name": "Tandoori Nights",
+      "cuisine": "Indian",
+      "neighborhood": "Midtown",
+      "price": "$$$",
+      "tags": [
+        "good_for_groups",
+        "late_night",
+        "upscale"
+      ]
+    },
+    {
+      "id": "R080",
+      "name": "Masala Kitchen",
+      "cuisine": "Indian",
+      "neighborhood": "Eastgate",
+      "price": "$$$",
+      "tags": [
+        "kid_friendly",
+        "upscale"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "Q01",
+      "query": "cozy italian near old town",
+      "category": "Italian",
+      "gold": [
+        "R001",
+        "R003",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R010",
+            "R009",
+            "R002",
+            "R003",
+            "R004",
+            "R008",
+            "R007",
+            "R056",
+            "R005",
+            "R075"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R010",
+            "R009",
+            "R002",
+            "R003",
+            "R004",
+            "R008",
+            "R007",
+            "R056",
+            "R005",
+            "R074"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R010",
+            "R009",
+            "R002",
+            "R003",
+            "R004",
+            "R008",
+            "R007",
+            "R047",
+            "R005",
+            "R075"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q02",
+      "query": "homemade pasta with a wine list",
+      "category": "Italian",
+      "gold": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R009"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R004",
+            "R001",
+            "R008",
+            "R009",
+            "R010",
+            "R002",
+            "R005",
+            "R013",
+            "R003",
+            "R031"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R004",
+            "R001",
+            "R008",
+            "R009",
+            "R010",
+            "R002",
+            "R005",
+            "R013",
+            "R003",
+            "R031"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R004",
+            "R001",
+            "R008",
+            "R009",
+            "R010",
+            "R002",
+            "R005",
+            "R013",
+            "R003",
+            "R031"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q03",
+      "query": "italian restaurant for a quiet dinner",
+      "category": "Italian",
+      "gold": [
+        "R001",
+        "R002",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R006",
+            "R009",
+            "R003",
+            "R004",
+            "R048",
+            "R010",
+            "R007",
+            "R080",
+            "R002",
+            "R038"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R006",
+            "R009",
+            "R003",
+            "R004",
+            "R048",
+            "R010",
+            "R007",
+            "R080",
+            "R002",
+            "R055"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R006",
+            "R009",
+            "R003",
+            "R004",
+            "R048",
+            "R010",
+            "R007",
+            "R077",
+            "R002",
+            "R038"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q04",
+      "query": "classic trattoria in midtown",
+      "category": "Italian",
+      "gold": [
+        "R001",
+        "R002",
+        "R003",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R010",
+            "R003",
+            "R004",
+            "R007",
+            "R005",
+            "R002",
+            "R006",
+            "R058",
+            "R008",
+            "R060"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R010",
+            "R003",
+            "R004",
+            "R007",
+            "R005",
+            "R002",
+            "R006",
+            "R058",
+            "R008",
+            "R060"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R010",
+            "R003",
+            "R004",
+            "R007",
+            "R005",
+            "R002",
+            "R006",
+            "R058",
+            "R008",
+            "R060"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q05",
+      "query": "wood-fired pizza and antipasti",
+      "category": "Italian",
+      "gold": [
+        "R001",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R010"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R003",
+            "R002",
+            "R004",
+            "R009",
+            "R010",
+            "R008",
+            "R001",
+            "R038",
+            "R006",
+            "R035"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R003",
+            "R002",
+            "R004",
+            "R009",
+            "R010",
+            "R008",
+            "R001",
+            "R038",
+            "R006",
+            "R035"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R003",
+            "R002",
+            "R004",
+            "R009",
+            "R010",
+            "R008",
+            "R001",
+            "R038",
+            "R006",
+            "R035"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q06",
+      "query": "authentic tacos al pastor",
+      "category": "Mexican",
+      "gold": [
+        "R011",
+        "R012",
+        "R014",
+        "R015",
+        "R016",
+        "R018",
+        "R019",
+        "R020"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R019",
+            "R018",
+            "R013",
+            "R015",
+            "R017",
+            "R016",
+            "R011",
+            "R023",
+            "R012",
+            "R028"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R019",
+            "R018",
+            "R013",
+            "R015",
+            "R017",
+            "R016",
+            "R011",
+            "R023",
+            "R012",
+            "R028"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R019",
+            "R018",
+            "R013",
+            "R015",
+            "R017",
+            "R016",
+            "R011",
+            "R023",
+            "R012",
+            "R028"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q07",
+      "query": "mexican with margaritas and patio",
+      "category": "Mexican",
+      "gold": [
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R018",
+        "R019"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R014",
+            "R013",
+            "R017",
+            "R011",
+            "R020",
+            "R012",
+            "R016",
+            "R069",
+            "R019",
+            "R065"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R014",
+            "R013",
+            "R017",
+            "R011",
+            "R020",
+            "R012",
+            "R016",
+            "R069",
+            "R019",
+            "R045"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R014",
+            "R013",
+            "R017",
+            "R011",
+            "R020",
+            "R012",
+            "R016",
+            "R069",
+            "R019",
+            "R065"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q08",
+      "query": "family-friendly mexican spot",
+      "category": "Mexican",
+      "gold": [
+        "R011",
+        "R012",
+        "R013",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R019",
+        "R020"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R011",
+            "R018",
+            "R014",
+            "R015",
+            "R041",
+            "R012",
+            "R017",
+            "R077",
+            "R020",
+            "R071"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R011",
+            "R018",
+            "R014",
+            "R015",
+            "R041",
+            "R012",
+            "R017",
+            "R077",
+            "R020",
+            "R071"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R011",
+            "R018",
+            "R014",
+            "R015",
+            "R041",
+            "R012",
+            "R017",
+            "R077",
+            "R020",
+            "R071"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q09",
+      "query": "late night burritos",
+      "category": "Mexican",
+      "gold": [
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R018",
+        "R019",
+        "R020"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R018",
+            "R012",
+            "R017",
+            "R019",
+            "R011",
+            "R020",
+            "R015",
+            "R054",
+            "R013",
+            "R038"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R018",
+            "R012",
+            "R040",
+            "R019",
+            "R011",
+            "R020",
+            "R015",
+            "R054",
+            "R013",
+            "R038"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R018",
+            "R012",
+            "R017",
+            "R019",
+            "R011",
+            "R020",
+            "R015",
+            "R054",
+            "R013",
+            "R038"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q10",
+      "query": "mezcal bar and small plates",
+      "category": "Mexican",
+      "gold": [
+        "R011",
+        "R013",
+        "R014",
+        "R016",
+        "R017",
+        "R019",
+        "R020"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R011",
+            "R012",
+            "R019",
+            "R015",
+            "R020",
+            "R018",
+            "R014",
+            "R043",
+            "R016",
+            "R054"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R011",
+            "R002",
+            "R019",
+            "R015",
+            "R020",
+            "R018",
+            "R014",
+            "R043",
+            "R016",
+            "R054"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R011",
+            "R012",
+            "R019",
+            "R015",
+            "R020",
+            "R018",
+            "R014",
+            "R043",
+            "R016",
+            "R054"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q11",
+      "query": "pub with craft beer and burgers",
+      "category": "Bar / pub food",
+      "gold": [
+        "R049",
+        "R050",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R050",
+            "R049",
+            "R023",
+            "R055",
+            "R006",
+            "R051",
+            "R052",
+            "R075",
+            "R056",
+            "R045"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R050",
+            "R049",
+            "R023",
+            "R055",
+            "R035",
+            "R051",
+            "R052",
+            "R075",
+            "R056",
+            "R045"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R050",
+            "R049",
+            "R023",
+            "R055",
+            "R006",
+            "R051",
+            "R052",
+            "R075",
+            "R056",
+            "R045"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q12",
+      "query": "sports bar wings and fries",
+      "category": "Bar / pub food",
+      "gold": [
+        "R049",
+        "R050",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R050",
+            "R049",
+            "R033",
+            "R055",
+            "R019",
+            "R056",
+            "R052",
+            "R075",
+            "R051",
+            "R023"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R050",
+            "R049",
+            "R033",
+            "R055",
+            "R045",
+            "R056",
+            "R052",
+            "R075",
+            "R051",
+            "R023"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R050",
+            "R049",
+            "R033",
+            "R055",
+            "R019",
+            "R056",
+            "R052",
+            "R075",
+            "R051",
+            "R023"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q13",
+      "query": "gastropub in the quarter",
+      "category": "Bar / pub food",
+      "gold": [
+        "R049",
+        "R050",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R056",
+            "R054",
+            "R071",
+            "R055",
+            "R072",
+            "R052",
+            "R049",
+            "R005",
+            "R050",
+            "R001"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R056",
+            "R054",
+            "R071",
+            "R055",
+            "R072",
+            "R052",
+            "R049",
+            "R005",
+            "R050",
+            "R001"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R056",
+            "R054",
+            "R071",
+            "R055",
+            "R072",
+            "R052",
+            "R049",
+            "R005",
+            "R050",
+            "R001"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q14",
+      "query": "dive bar with cheap pints",
+      "category": "Bar / pub food",
+      "gold": [
+        "R049",
+        "R050",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R051",
+            "R052",
+            "R076",
+            "R054",
+            "R071",
+            "R056",
+            "R049",
+            "R036",
+            "R050",
+            "R061"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R051",
+            "R052",
+            "R033",
+            "R054",
+            "R071",
+            "R056",
+            "R049",
+            "R036",
+            "R050",
+            "R061"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R051",
+            "R052",
+            "R076",
+            "R054",
+            "R071",
+            "R056",
+            "R049",
+            "R036",
+            "R050",
+            "R061"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q15",
+      "query": "brewpub with a big patio",
+      "category": "Bar / pub food",
+      "gold": [
+        "R049",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R051",
+            "R050",
+            "R056",
+            "R040",
+            "R052",
+            "R060",
+            "R054",
+            "R042",
+            "R049",
+            "R032"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R051",
+            "R050",
+            "R056",
+            "R040",
+            "R052",
+            "R060",
+            "R054",
+            "R042",
+            "R049",
+            "R032"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R051",
+            "R050",
+            "R056",
+            "R040",
+            "R052",
+            "R060",
+            "R054",
+            "R042",
+            "R049",
+            "R032"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q16",
+      "query": "weekend brunch with pancakes",
+      "category": "Cafe / brunch",
+      "gold": [
+        "R041",
+        "R044",
+        "R048"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R048",
+            "R045",
+            "R047",
+            "R044",
+            "R043",
+            "R042",
+            "R041",
+            "R046",
+            "R073",
+            "R069"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R048",
+            "R045",
+            "R047",
+            "R044",
+            "R043",
+            "R042",
+            "R041",
+            "R046",
+            "R073",
+            "R069"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R048",
+            "R070",
+            "R047",
+            "R044",
+            "R043",
+            "R042",
+            "R041",
+            "R046",
+            "R073",
+            "R069"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q17",
+      "query": "quiet cafe to work with wifi",
+      "category": "Cafe / brunch",
+      "gold": [
+        "R042",
+        "R046"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R042",
+            "R044",
+            "R045",
+            "R048",
+            "R041",
+            "R046",
+            "R047",
+            "R043",
+            "R059",
+            "R025"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R042",
+            "R044",
+            "R045",
+            "R048",
+            "R041",
+            "R046",
+            "R047",
+            "R043",
+            "R059",
+            "R025"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R042",
+            "R044",
+            "R001",
+            "R048",
+            "R041",
+            "R046",
+            "R047",
+            "R043",
+            "R059",
+            "R025"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q18",
+      "query": "avocado toast and flat white",
+      "category": "Cafe / brunch",
+      "gold": [
+        "R041",
+        "R044",
+        "R046",
+        "R047"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R046",
+            "R043",
+            "R048",
+            "R047",
+            "R045",
+            "R042",
+            "R041",
+            "R070",
+            "R057",
+            "R080"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R046",
+            "R043",
+            "R048",
+            "R047",
+            "R045",
+            "R042",
+            "R041",
+            "R074",
+            "R057",
+            "R080"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R046",
+            "R043",
+            "R048",
+            "R047",
+            "R010",
+            "R042",
+            "R041",
+            "R070",
+            "R057",
+            "R080"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q19",
+      "query": "cozy coffee shop uptown",
+      "category": "Cafe / brunch",
+      "gold": [
+        "R044",
+        "R045",
+        "R046"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R046",
+            "R042",
+            "R048",
+            "R043",
+            "R041",
+            "R045",
+            "R047",
+            "R028",
+            "R013",
+            "R060"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R046",
+            "R042",
+            "R048",
+            "R043",
+            "R041",
+            "R045",
+            "R047",
+            "R028",
+            "R013",
+            "R014"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R046",
+            "R042",
+            "R048",
+            "R043",
+            "R041",
+            "R045",
+            "R047",
+            "R035",
+            "R013",
+            "R060"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q20",
+      "query": "bakery cafe with pastries",
+      "category": "Cafe / brunch",
+      "gold": [
+        "R044",
+        "R045"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R045",
+            "R043",
+            "R047",
+            "R048",
+            "R041",
+            "R044",
+            "R046",
+            "R042",
+            "R034",
+            "R036"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R045",
+            "R043",
+            "R047",
+            "R048",
+            "R041",
+            "R044",
+            "R046",
+            "R042",
+            "R034",
+            "R036"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R045",
+            "R043",
+            "R047",
+            "R048",
+            "R041",
+            "R044",
+            "R046",
+            "R042",
+            "R034",
+            "R029"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q21",
+      "query": "cheap eats under 10 dollars",
+      "category": "Cheap eats",
+      "gold": [
+        "R005",
+        "R007",
+        "R038",
+        "R041",
+        "R057"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R007",
+            "R060",
+            "R041",
+            "R059",
+            "R058",
+            "R057",
+            "R063",
+            "R005",
+            "R062",
+            "R064"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R007",
+            "R060",
+            "R041",
+            "R059",
+            "R058",
+            "R057",
+            "R063",
+            "R005",
+            "R062",
+            "R064"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R007",
+            "R060",
+            "R041",
+            "R059",
+            "R061",
+            "R057",
+            "R063",
+            "R005",
+            "R062",
+            "R064"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q22",
+      "query": "budget lunch near the harbor",
+      "category": "Cheap eats",
+      "gold": [
+        "R002",
+        "R035",
+        "R051",
+        "R057"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R002",
+            "R064",
+            "R061",
+            "R051",
+            "R060",
+            "R062",
+            "R035",
+            "R058",
+            "R059",
+            "R063"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R002",
+            "R064",
+            "R061",
+            "R051",
+            "R060",
+            "R062",
+            "R035",
+            "R058",
+            "R059",
+            "R018"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R002",
+            "R064",
+            "R047",
+            "R051",
+            "R060",
+            "R062",
+            "R035",
+            "R058",
+            "R059",
+            "R063"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q23",
+      "query": "affordable family dinner",
+      "category": "Cheap eats",
+      "gold": [
+        "R041",
+        "R057",
+        "R058"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R058",
+            "R062",
+            "R060",
+            "R041",
+            "R061",
+            "R059",
+            "R057",
+            "R064",
+            "R063",
+            "R008"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R058",
+            "R062",
+            "R060",
+            "R041",
+            "R061",
+            "R059",
+            "R057",
+            "R064",
+            "R063",
+            "R008"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R058",
+            "R062",
+            "R060",
+            "R041",
+            "R061",
+            "R059",
+            "R057",
+            "R064",
+            "R063",
+            "R008"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q24",
+      "query": "student-friendly cheap food",
+      "category": "Cheap eats",
+      "gold": [
+        "R005",
+        "R006",
+        "R028",
+        "R030",
+        "R039"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R005",
+            "R064",
+            "R062",
+            "R006",
+            "R060",
+            "R059",
+            "R030",
+            "R063",
+            "R058",
+            "R061"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R005",
+            "R064",
+            "R062",
+            "R006",
+            "R060",
+            "R059",
+            "R030",
+            "R063",
+            "R058",
+            "R061"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R005",
+            "R064",
+            "R062",
+            "R006",
+            "R060",
+            "R059",
+            "R030",
+            "R063",
+            "R058",
+            "R061"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q25",
+      "query": "quick cheap bite downtown",
+      "category": "Cheap eats",
+      "gold": [
+        "R028",
+        "R034",
+        "R057"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R028",
+            "R063",
+            "R058",
+            "R057",
+            "R062",
+            "R060",
+            "R034",
+            "R064",
+            "R059",
+            "R061"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R028",
+            "R018",
+            "R058",
+            "R057",
+            "R062",
+            "R060",
+            "R034",
+            "R064",
+            "R059",
+            "R061"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R028",
+            "R063",
+            "R058",
+            "R057",
+            "R062",
+            "R060",
+            "R034",
+            "R064",
+            "R036",
+            "R061"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q26",
+      "query": "upscale restaurant for an anniversary",
+      "category": "Fine dining",
+      "gold": [
+        "R018",
+        "R020",
+        "R024",
+        "R025",
+        "R027",
+        "R032",
+        "R033",
+        "R044",
+        "R046",
+        "R053",
+        "R054",
+        "R055",
+        "R067",
+        "R071",
+        "R072",
+        "R076",
+        "R077",
+        "R079"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R046",
+            "R079",
+            "R077",
+            "R006",
+            "R071",
+            "R020",
+            "R002",
+            "R024",
+            "R025",
+            "R010"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R046",
+            "R079",
+            "R077",
+            "R006",
+            "R071",
+            "R020",
+            "R002",
+            "R024",
+            "R025",
+            "R010"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R046",
+            "R079",
+            "R077",
+            "R006",
+            "R071",
+            "R020",
+            "R002",
+            "R024",
+            "R025",
+            "R008"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q27",
+      "query": "fine dining tasting menu",
+      "category": "Fine dining",
+      "gold": [
+        "R001",
+        "R010",
+        "R018",
+        "R020",
+        "R024",
+        "R025",
+        "R027",
+        "R032",
+        "R033",
+        "R044",
+        "R049",
+        "R053",
+        "R054",
+        "R055",
+        "R060",
+        "R067",
+        "R071",
+        "R072",
+        "R076",
+        "R080"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R071",
+            "R054",
+            "R080",
+            "R076",
+            "R002",
+            "R024",
+            "R053",
+            "R025",
+            "R060",
+            "R003"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R071",
+            "R054",
+            "R080",
+            "R076",
+            "R002",
+            "R024",
+            "R053",
+            "R025",
+            "R060",
+            "R009"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R071",
+            "R054",
+            "R080",
+            "R076",
+            "R009",
+            "R024",
+            "R053",
+            "R025",
+            "R060",
+            "R003"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q28",
+      "query": "elegant date night spot",
+      "category": "Fine dining",
+      "gold": [
+        "R001",
+        "R020",
+        "R024",
+        "R025",
+        "R033",
+        "R044",
+        "R046",
+        "R053",
+        "R054",
+        "R060",
+        "R066",
+        "R067",
+        "R071",
+        "R072",
+        "R079",
+        "R080"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R072",
+            "R060",
+            "R053",
+            "R003",
+            "R080",
+            "R044",
+            "R008",
+            "R033",
+            "R024",
+            "R005"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R072",
+            "R060",
+            "R053",
+            "R003",
+            "R080",
+            "R044",
+            "R008",
+            "R033",
+            "R024",
+            "R005"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R072",
+            "R060",
+            "R053",
+            "R003",
+            "R080",
+            "R044",
+            "R008",
+            "R033",
+            "R024",
+            "R009"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q29",
+      "query": "high-end dinner with a view",
+      "category": "Fine dining",
+      "gold": [
+        "R001",
+        "R010",
+        "R018",
+        "R020",
+        "R025",
+        "R027",
+        "R032",
+        "R033",
+        "R044",
+        "R054",
+        "R055",
+        "R060",
+        "R063",
+        "R066",
+        "R067",
+        "R072",
+        "R076",
+        "R077",
+        "R079"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R025",
+            "R076",
+            "R077",
+            "R008",
+            "R018",
+            "R067",
+            "R007",
+            "R055",
+            "R054",
+            "R004"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R025",
+            "R076",
+            "R077",
+            "R008",
+            "R018",
+            "R067",
+            "R007",
+            "R055",
+            "R054",
+            "R004"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R025",
+            "R076",
+            "R077",
+            "R008",
+            "R018",
+            "R067",
+            "R007",
+            "R055",
+            "R054",
+            "R004"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q30",
+      "query": "special occasion fine dining",
+      "category": "Fine dining",
+      "gold": [
+        "R001",
+        "R010",
+        "R020",
+        "R024",
+        "R025",
+        "R044",
+        "R046",
+        "R055",
+        "R060",
+        "R071",
+        "R072",
+        "R076",
+        "R077",
+        "R079",
+        "R080"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R001",
+            "R046",
+            "R060",
+            "R055",
+            "R002",
+            "R076",
+            "R072",
+            "R025",
+            "R071",
+            "R009"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R001",
+            "R046",
+            "R060",
+            "R055",
+            "R002",
+            "R076",
+            "R072",
+            "R025",
+            "R071",
+            "R009"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R001",
+            "R046",
+            "R060",
+            "R055",
+            "R006",
+            "R076",
+            "R072",
+            "R025",
+            "R071",
+            "R009"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q31",
+      "query": "best sushi in town",
+      "category": "Japanese",
+      "gold": [
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025",
+        "R028",
+        "R030"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R029",
+            "R026",
+            "R027",
+            "R041",
+            "R074",
+            "R025",
+            "R024",
+            "R022",
+            "R021",
+            "R023"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R029",
+            "R026",
+            "R027",
+            "R041",
+            "R074",
+            "R025",
+            "R024",
+            "R022",
+            "R021",
+            "R023"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R029",
+            "R026",
+            "R027",
+            "R041",
+            "R074",
+            "R025",
+            "R024",
+            "R022",
+            "R021",
+            "R023"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q32",
+      "query": "authentic ramen shop",
+      "category": "Japanese",
+      "gold": [
+        "R021",
+        "R022",
+        "R023",
+        "R025",
+        "R026",
+        "R029",
+        "R030"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R027",
+            "R028",
+            "R024",
+            "R043",
+            "R052",
+            "R025",
+            "R021",
+            "R022",
+            "R026",
+            "R023"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R027",
+            "R028",
+            "R024",
+            "R043",
+            "R052",
+            "R025",
+            "R021",
+            "R022",
+            "R026",
+            "R023"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R027",
+            "R028",
+            "R024",
+            "R043",
+            "R052",
+            "R025",
+            "R021",
+            "R022",
+            "R026",
+            "R023"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q33",
+      "query": "japanese izakaya with sake",
+      "category": "Japanese",
+      "gold": [
+        "R021",
+        "R022",
+        "R023",
+        "R025",
+        "R026",
+        "R027",
+        "R030"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R029",
+            "R028",
+            "R024",
+            "R046",
+            "R032",
+            "R030",
+            "R026",
+            "R021",
+            "R027",
+            "R025"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R029",
+            "R028",
+            "R024",
+            "R046",
+            "R032",
+            "R030",
+            "R026",
+            "R021",
+            "R027",
+            "R025"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R029",
+            "R028",
+            "R024",
+            "R046",
+            "R032",
+            "R030",
+            "R026",
+            "R021",
+            "R027",
+            "R025"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q34",
+      "query": "omakase sushi counter",
+      "category": "Japanese",
+      "gold": [
+        "R021",
+        "R022",
+        "R025",
+        "R026",
+        "R027",
+        "R029",
+        "R030"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R023",
+            "R024",
+            "R028",
+            "R041",
+            "R072",
+            "R022",
+            "R030",
+            "R021",
+            "R027",
+            "R025"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R023",
+            "R024",
+            "R028",
+            "R041",
+            "R072",
+            "R022",
+            "R030",
+            "R021",
+            "R027",
+            "R025"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R023",
+            "R024",
+            "R028",
+            "R041",
+            "R072",
+            "R022",
+            "R030",
+            "R021",
+            "R027",
+            "R025"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q35",
+      "query": "japanese restaurant for date night",
+      "category": "Japanese",
+      "gold": [
+        "R021",
+        "R024",
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R030"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R023",
+            "R029",
+            "R022",
+            "R073",
+            "R042",
+            "R025",
+            "R021",
+            "R024",
+            "R026",
+            "R027"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R023",
+            "R029",
+            "R022",
+            "R073",
+            "R042",
+            "R025",
+            "R021",
+            "R024",
+            "R026",
+            "R027"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R023",
+            "R029",
+            "R022",
+            "R073",
+            "R042",
+            "R025",
+            "R021",
+            "R024",
+            "R026",
+            "R027"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q36",
+      "query": "vegan restaurant with bowls",
+      "category": "Vegan",
+      "gold": [
+        "R031",
+        "R032",
+        "R034",
+        "R037",
+        "R038",
+        "R039",
+        "R040"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R039",
+            "R033",
+            "R036",
+            "R037",
+            "R035",
+            "R067",
+            "R038",
+            "R005",
+            "R075",
+            "R070"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R040",
+            "R035",
+            "R036",
+            "R039",
+            "R033",
+            "R069",
+            "R031",
+            "R042",
+            "R052",
+            "R017"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R032",
+            "R035",
+            "R036",
+            "R033",
+            "R078",
+            "R034",
+            "R063",
+            "R055",
+            "R050",
+            "R041"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q37",
+      "query": "plant-based comfort food",
+      "category": "Vegan",
+      "gold": [
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R038",
+        "R039"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R038",
+            "R040",
+            "R031",
+            "R032",
+            "R037",
+            "R015",
+            "R036",
+            "R045",
+            "R054",
+            "R025"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R034",
+            "R040",
+            "R037",
+            "R033",
+            "R031",
+            "R002",
+            "R035",
+            "R077",
+            "R074",
+            "R028"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R035",
+            "R037",
+            "R040",
+            "R039",
+            "R031",
+            "R077",
+            "R036",
+            "R071",
+            "R016",
+            "R010"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q38",
+      "query": "vegan brunch spot",
+      "category": "Vegan",
+      "gold": [
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R039",
+        "R040"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R033",
+            "R031",
+            "R038",
+            "R037",
+            "R025",
+            "R040",
+            "R059",
+            "R019",
+            "R016",
+            "R070"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R040",
+            "R031",
+            "R037",
+            "R039",
+            "R038",
+            "R061",
+            "R036",
+            "R054",
+            "R051",
+            "R046"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R036",
+            "R038",
+            "R037",
+            "R031",
+            "R041",
+            "R034",
+            "R068",
+            "R065",
+            "R009",
+            "R008"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q39",
+      "query": "dairy-free and vegan options",
+      "category": "Vegan",
+      "gold": [
+        "R031",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R038",
+        "R040"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R033",
+            "R037",
+            "R032",
+            "R036",
+            "R039",
+            "R022",
+            "R035",
+            "R010",
+            "R054",
+            "R055"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R036",
+            "R039",
+            "R032",
+            "R038",
+            "R037",
+            "R004",
+            "R033",
+            "R050",
+            "R062",
+            "R051"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R040",
+            "R037",
+            "R039",
+            "R034",
+            "R032",
+            "R001",
+            "R031",
+            "R023",
+            "R067",
+            "R062"
+          ]
+        }
+      ]
+    },
+    {
+      "query_id": "Q40",
+      "query": "vegan fine dining",
+      "category": "Vegan",
+      "gold": [
+        "R031",
+        "R032",
+        "R033",
+        "R035",
+        "R036",
+        "R039",
+        "R040"
+      ],
+      "runs": [
+        {
+          "run": 1,
+          "retrieved": [
+            "R031",
+            "R038",
+            "R039",
+            "R037",
+            "R034",
+            "R036",
+            "R019",
+            "R035",
+            "R068",
+            "R061"
+          ]
+        },
+        {
+          "run": 2,
+          "retrieved": [
+            "R033",
+            "R038",
+            "R037",
+            "R034",
+            "R049",
+            "R032",
+            "R043",
+            "R076",
+            "R042",
+            "R002"
+          ]
+        },
+        {
+          "run": 3,
+          "retrieved": [
+            "R032",
+            "R037",
+            "R031",
+            "R034",
+            "R038",
+            "R033",
+            "R053",
+            "R035",
+            "R062",
+            "R054"
+          ]
+        }
+      ]
+    }
+  ]
+}
